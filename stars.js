@@ -2,7 +2,7 @@ const canvas = document.getElementById("starCanvas");
 const ctx = canvas.getContext("2d");
 
 function randomColor() {
-    const colors = ["white", "red", "green", "blue", "yellow", "purple", "cyan", "orange"];
+    const colors = ["white",  "orange"];
     return colors[Math.floor(Math.random() * colors.length)];
 }
 
